@@ -1,5 +1,6 @@
 package com.example.employee_service.controller;
 
+import com.example.employee_service.dto.APIResponseDto;
 import com.example.employee_service.dto.EmployeeDto;
 import com.example.employee_service.service.EmployeeService;
 import jakarta.validation.Valid;
@@ -9,7 +10,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/employees")
+@RequestMapping("api/employees")
 @AllArgsConstructor
 public class EmployeeController {
 
@@ -20,10 +21,10 @@ public class EmployeeController {
         EmployeeDto createdEmployeeDto = employeeService.createEmoployee(employeeDto);
         return new ResponseEntity<>(createdEmployeeDto, HttpStatus.CREATED);
     }
-    @GetMapping("{id}")
-    public ResponseEntity<EmployeeDto> getEmployeeById(@PathVariable Long id){
-        EmployeeDto employeeDto=employeeService.getEmployeeById(id);
-        return ResponseEntity.ok(employeeDto);
+    @GetMapping("/{id}")
+    public ResponseEntity<APIResponseDto> getEmployeeById(@PathVariable Long id){
+        APIResponseDto apiResponseDtoDto=employeeService.getEmployeeById(id);
+        return ResponseEntity.ok(apiResponseDtoDto);
     }
 
 }

@@ -1,0 +1,18 @@
+docker ps---> to see which dockers are running
+
+docker stop 43addd01b163
+docker rm 43addd01b163---> to run a docker
+
+
+docker run -p 5673:5672   ---> to run on different port
+
+
+docker logs rabbitmq  --> to see the logs
+
+docker logs -f <container_name_or_id>
+
+
+docker stop 43addd01b163  -- to stop the docker
+docker rm 43addd01b163 --- to remove the docker image
+
+docker run -d --name zipkin -p 9411:9411 openzipkin/zipkin

@@ -30,4 +30,6 @@ public class EmployeeDto {
     @NotNull(message="Email field is missing")
     @NotEmpty(message="Emaild Id cannot be empty")
     private String email;
+    private String departmentCode;
+    private String OrganizationCode;
 }
