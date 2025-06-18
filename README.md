@@ -9,5 +9,5 @@ Pre Requisites:
 Built a fullstack microservices project using Spring Boot and React JS
 
 Dependencies used:<br>
-Spring Boot 3.0.0x with Spring Cloud 2022.0.1 <br>
+Spring Boot 3.4.x with Spring Cloud 2022.0.x <br>
 React with axios library <br>
