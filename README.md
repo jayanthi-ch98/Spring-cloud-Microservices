@@ -1,14 +1,14 @@
 # Spring-cloud-Microservices
 Spring Boot Microservices project created using Spring Cloud 
 
-Pre Requisites:
+<strong>Pre Requisites:</strong><br>
 1.Intellij idea <br>
 2.Docker desktop<br>
 3.MySQL workbench<br>
 
 Built a fullstack microservices project using Spring Boot and React JS
 
-Dependencies used:<br>
+<strong>Dependencies used:</strong><br>
 Spring Boot 3.4.x with Spring Cloud 2022.0.x <br>
 Spring Cloud API gateway  ---> To have a API gateway to route to all the services <br>
 Spring Cloud Eureka server --->For registering the services <br>
