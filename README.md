@@ -17,6 +17,6 @@ Spring cloud starter config----> To use config server repo in github for managin
 Spring cloud bus    -----> To automate the updation of properties from config server instead of hitting spring actuator/refresh for all the services manually <br>
 micrometer with zipkin---> For distribution tracing of the services calls using trace ID <br>
 resilience4j----> For Circuit Breaker Implementation-To handle service down issues<br>
-Retryable-------> To handle Circuit breaker implementation
+Retryable-------> To handle Circuit breaker implementation<br>
 Spring Doc rest Open API documentation ---> To generate swagger documentation for all the Rest APIS <br>
 React with axios library <br>
